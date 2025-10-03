@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Parisa Reza Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Parisa <span id="second-name">Reza</span></span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a
+                        href="index.html">Home</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a
+                        href="experiences.html">Experiences</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a
+                        href="projects.html">Projects</a></div>
+            </div>
+
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="experiences.html">Experiences</a>
+                <a href="projects.html">Projects</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container-experience">
+
+
+            <div class="header" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Experiences</h1>
+            </div>
+
+
+            <div class="bjit-attachment-project">
+                <div class="bjit-attachment-project-demo">
+
+                    <video data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" controls>
+                        <source src="documents/Media1.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="bjit-attachment-project-details">
+                    <h2 data-aos="zoom-in-right" data-aos-duration="3500">BJIT</h2>
+                    <div class="bjit-details" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+                        <li><i> <b>Project (Individual) : CNN-based desktop application “Car vs Bike Classification”
+                        </li></i> </b>
+                        <li>Role : Developer</li>
+                        <li>Result : 98% test accuracy</li>
+                        <li>GUI- Tkinter</li>
+                        <li>Model architecture- Resnet18</li>
+                        <li>Project management tool - Redmine</li>
+                        <li>Version Control - Git</li>
+                        <li>Agile framework - Scrum</li>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="Monstarlab-Bangladesh-attachment-project">
+                <div class="Monstarlab-Bangladesh-attachment-project-demo">
+
+                    <video data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" controls>
+                        <source src="documents/vlc-record-2025-10-02-21h30m26s-2025-10-02 21-13-42.mp4-.mp4"
+                            type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="Monstarlab-Bangladesh-attachment-project-details">
+                    <h2 data-aos="zoom-in-right" data-aos-duration="3500">Monstarlab Bangladesh</h2>
+                    <div class="Monstarlab-Bangladesh-details " data-aos="fade-left" data-aos-duration="1000"
+                        data-aos-delay="800">
+                        <li> <i> <b>Project (Team) : Frontend project - "Amrao-Pari"</li> </i> </b>
+                        <li>Role : Developer</li>
+                        <li>Library: React JS</li>
+                        <li>Project management tool - Jira</li>
+                        <li>Version Control - Git</li>
+                        <li>Agile framework - Scrum</li>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p id="copyright"> &copy Parisa Reza 2025</p>
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0, duration: 2000,      // Default duration for animations (2 seconds)
+            easing: 'ease-in-out'
+        });
+    </script>
+    <script>
+        function hamburg() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
+</body>
+
+</html>

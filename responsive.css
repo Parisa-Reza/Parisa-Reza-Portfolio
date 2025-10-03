@@ -1,0 +1,1288 @@
+/* breaking point
+3840 (4k) 
+1440,1366,1024,768, (PC,Lapttop) , 1326--my laptop
+700,425,360 (mobile,tab) */
+
+
+@media screen and (min-width:3840px) {
+
+    .logo {
+
+        font-size: 4.6rem;
+
+    }
+
+    .nav-container .links {
+        gap: 19rem;
+
+    }
+
+    .nav-container .links a {
+
+        font-size: 3.2rem;
+        font-weight: 400;
+
+    }
+
+    .nav-container .links a::before {
+        position: absolute;
+        content: "";
+        bottom: -3px;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background-color: rgb(10, 228, 217);
+        transition: 0.2s linear;
+    }
+
+    .nav-container .links a:hover::before {
+        width: 100%;
+    }
+
+    .hamburg,
+    .cancel {
+
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        display: none;
+    }
+
+
+    .main-container .image {
+        z-index: -1;
+        width: 40%;
+        display: flex;
+        padding: 200px;
+
+    }
+
+    .main-container .content {
+
+        width: 40%;
+        min-height: 100px;
+    }
+
+    .content h1 {
+        font-size: clamp(1rem, 2rem + 5vw, 6rem);
+        /* min,prefered,max */
+    }
+
+
+    .content .typewriter {
+
+        font-size: clamp(1rem, 1rem + 5vw, 5rem);
+    }
+
+    .content .typewriter span {
+        font-size: 4.5rem;
+        position: relative;
+
+    }
+
+    .content p {
+        font-size: clamp(0.4rem, 0.2rem + 9vw, 3.1rem);
+        margin: 50px 0;
+    }
+
+    .social-links i {
+
+        width: 5.5rem;
+        height: 5.5rem;
+        margin: 25px 50px 25px 0px;
+        font-size: 3.5rem;
+
+    }
+
+    .social-links i:hover {
+        scale: 2.6;
+    }
+
+    .content button {
+
+        width: 25%;
+        height: 7vh;
+        margin: 25px 30px 25px 0px;
+        font-size: 2.4rem;
+
+    }
+
+    .content button:hover {
+        scale: 1.3;
+
+    }
+
+    .header h1 {
+
+        color: rgb(10, 228, 217);
+        padding: 90px;
+        text-align: center;
+        font-size: 6.5em;
+    }
+
+    .bjit-attachment-project,
+    .Monstarlab-Bangladesh-attachment-project,
+    .bachelor-thesis {
+
+        padding: 80px;
+
+    }
+
+
+    video {
+        width: 1500px;
+        height: 960px;
+    }
+
+    .bjit-attachment-project-details h2,
+    .Monstarlab-Bangladesh-attachment-project-details h2,
+    .bachelor-thesis-details h2 {
+        font-weight: 900;
+        font-size: 7.2em;
+    }
+
+    .bjit-attachment-project-details,
+    .Monstarlab-Bangladesh-attachment-project-details,
+    .bachelor-thesis-project-details {
+        margin: 50px 0;
+    }
+
+    .bjit-attachment-project-details li,
+    .Monstarlab-Bangladesh-attachment-project-details li,
+    .bachelor-thesis-details li {
+        font-size: 4rem;
+        padding: 25px 0 25px 0;
+    }
+
+
+
+    .bachelor-thesis-demo {
+
+        width: 1500px;
+        height: 1000px;
+
+    }
+
+    .bachelor-thesis-demo img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 35px;
+
+    }
+
+    #copyright {
+        display: block;
+        font-size: 2.1rem;
+
+    }
+
+}
+
+/* ------------------------------------------- */
+
+@media screen and (max-width:1024px) {
+
+    .logo {
+
+        font-size: 1.6rem;
+
+    }
+
+    .nav-container .links {
+        gap: 4rem;
+
+    }
+
+    .nav-container .links a {
+
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+
+    .nav-container .links a::before {
+        position: absolute;
+        content: "";
+        bottom: -3px;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background-color: rgb(10, 228, 217);
+        transition: 0.2s linear;
+    }
+
+    .nav-container .links a:hover::before {
+        width: 100%;
+    }
+
+    .hamburg,
+    .cancel {
+
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        display: none;
+    }
+
+
+    .main-container .image {
+        z-index: -1;
+        width: 40%;
+        display: flex;
+        padding: 40px;
+
+    }
+
+    .main-container .content {
+
+        width: 40%;
+        min-height: 100px;
+    }
+
+    .content h1 {
+        font-size: clamp(1rem, 2em + 5vw, 2.5rem);
+        /* min,prefered,max */
+    }
+
+
+    .content .typewriter {
+
+        font-size: clamp(1rem, 1rem + 5vw, 2rem);
+    }
+
+    .content .typewriter span {
+        font-size: 2rem;
+        position: relative;
+
+    }
+
+    .content p {
+        font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+        margin: 8px 0;
+    }
+
+    .social-links i {
+
+        width: 2.2rem;
+        height: 2.2rem;
+        margin: 5px 20px 5px 0px;
+        font-size: 1.2rem;
+
+    }
+
+    .social-links i:hover {
+        scale: 1.2;
+    }
+
+    .content button {
+
+        width: 25%;
+        height: 6vh;
+        margin: 15px 18px 15px 0px;
+        font-size: 1rem;
+
+    }
+
+    .content button:hover {
+        scale: 1.1;
+
+    }
+
+    .header h1 {
+
+
+        padding: 45px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .bjit-attachment-project,
+    .Monstarlab-Bangladesh-attachment-project,
+    .bachelor-thesis {
+
+        padding: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+    video {
+        width: 500px;
+        height: 250px;
+    }
+
+    .bjit-attachment-project-details h2,
+    .Monstarlab-Bangladesh-attachment-project-details h2,
+    .bachelor-thesis-details h2 {
+        font-weight: 400;
+        font-size: 2em;
+    }
+
+    .bjit-attachment-project-details,
+    .Monstarlab-Bangladesh-attachment-project-details,
+    .bachelor-thesis-project-details {
+        margin: 50px 0;
+    }
+
+    .bjit-attachment-project-details li,
+    .Monstarlab-Bangladesh-attachment-project-details li,
+    .bachelor-thesis-details li {
+        font-size: 1.1rem;
+        padding: 5px 0 5px 0;
+    }
+
+
+    .bachelor-thesis-demo {
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .bachelor-thesis-demo img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 15px;
+
+    }
+
+    #copyright {
+        display: block;
+        font-size: 1.1rem;
+
+    }
+
+}
+
+
+/* ------------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+    .logo {
+
+        font-size: 1.6rem;
+
+    }
+
+    .nav-container .links {
+        gap: 4rem;
+
+    }
+
+    .nav-container .links a {
+
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+
+    .nav-container .links a::before {
+        position: absolute;
+        content: "";
+        bottom: -3px;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background-color: rgb(10, 228, 217);
+        transition: 0.2s linear;
+    }
+
+    .nav-container .links a:hover::before {
+        width: 100%;
+    }
+
+    .hamburg,
+    .cancel {
+
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        display: none;
+    }
+
+    .main-container .image {
+        z-index: -1;
+        width: 50%;
+        display: flex;
+        padding: 40px;
+
+    }
+
+    .main-container .content {
+
+        width: 50%;
+        min-height: 100px;
+    }
+
+    .content h1 {
+        font-size: clamp(1rem, 2rem + 5vw, 2rem);
+        /* min,prefered,max */
+    }
+
+
+    .content .typewriter {
+
+        font-size: clamp(1rem, 1rem + 5vw, 1.5rem);
+    }
+
+    .content .typewriter span {
+        font-size: 1.5rem;
+        position: relative;
+
+    }
+
+    .content p {
+        font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+        margin: 8px 0;
+    }
+
+    .social-links i {
+
+        width: 2.2rem;
+        height: 2.2rem;
+        margin: 5px 20px 5px 0px;
+        font-size: 1.2rem;
+
+    }
+
+    .social-links i:hover {
+        scale: 1.2;
+    }
+
+    .content button {
+
+        width: 30%;
+        height: 6vh;
+        margin: 13px 18px 13px 0px;
+        font-size: 1rem;
+
+    }
+
+    .content button:hover {
+        scale: 1.1;
+
+    }
+
+    .header h1 {
+
+
+        padding: 45px;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .bjit-attachment-project,
+    .Monstarlab-Bangladesh-attachment-project {
+
+        padding: 40px;
+
+    }
+
+
+    video {
+        width: 400px;
+        height: 200px;
+    }
+
+    .bjit-attachment-project,
+    .Monstarlab-Bangladesh-attachment-project {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bjit-attachment-project-details h2,
+    .Monstarlab-Bangladesh-attachment-project-details h2 {
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+
+    .bjit-attachment-project-details,
+    .Monstarlab-Bangladesh-attachment-project-details {
+        margin: 0 20px 0px 10px;
+    }
+
+
+
+    .bjit-attachment-project-details li,
+    .Monstarlab-Bangladesh-attachment-project-details li,
+    .bachelor-thesis-details li {
+        font-size: 1rem;
+        padding: 3px 0 3px 0;
+    }
+
+    .bachelor-thesis {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bachelor-thesis-demo {
+
+        width: 450px;
+        height: 450px;
+        display: flex;
+    }
+
+    .bachelor-thesis-demo img {
+
+        width: 100%;
+
+
+    }
+
+    footer {
+        padding: 15px;
+
+    }
+
+    #copyright {
+        display: block;
+        font-size: 1rem;
+
+    }
+
+}
+
+
+/* ------------------------------------------- */
+
+@media screen and (max-width:700px) {
+
+    /* for dropdown in small screen */
+    body {
+        overflow-y: visible;
+    }
+
+
+    .hamburg,
+    .cancel {
+        display: block;
+        color: white;
+
+    }
+
+    .dropdown {
+        z-index: 100;
+        position: absolute;
+        top: 0;
+        transform: translateY(-500px);
+        width: 100%;
+        backdrop-filter: brightness(50%) blur(1px);
+        box-shadow: 0 0 20px rgb(164, 187, 189);
+
+        transition: 0.8s linear;
+    }
+
+    .dropdown .links a {
+        color: white;
+        display: flex;
+        border-bottom: 0.8px solid rgba(10, 228, 217, 0.815);
+        text-decoration: none;
+        justify-content: center;
+
+        align-items: center;
+        transition: 0.2s linear;
+    }
+
+    .dropdown .links a:hover {
+        background-color: rgb(10, 228, 217);
+    }
+
+    .nav-container .links {
+        display: none;
+    }
+
+    /* dropdown till here */
+
+
+
+    .logo {
+
+        font-size: 1.6rem;
+
+    }
+
+    .general-experiences {
+
+        text-align: center;
+        padding: 10px;
+    }
+
+    .general-experiences h2 {
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        font-weight: 100;
+    }
+
+    .main-container .image {
+        z-index: -1;
+        width: 50%;
+        display: flex;
+        padding: 40px;
+
+    }
+
+    .main-container .content {
+
+        width: 50%;
+        min-height: 100px;
+    }
+
+    .content h1 {
+        font-size: clamp(1rem, 2rem + 5vw, 2rem);
+        /* min,prefered,max */
+    }
+
+
+    .content .typewriter {
+
+        font-size: clamp(1rem, 1rem + 5vw, 1rem);
+    }
+
+    .content .typewriter span {
+        font-size: 1.1rem;
+        position: relative;
+
+    }
+
+    .content p {
+        font-size: clamp(0.4rem, 0.2rem + 9vw, 0.8rem);
+        margin: 8px 0;
+    }
+
+    .social-links i {
+
+        width: 2rem;
+        height: 2rem;
+        margin: 5px 20px 5px 0px;
+        font-size: 1rem;
+
+    }
+
+    .social-links i:hover {
+        scale: 1.2;
+    }
+
+    .content button {
+
+        width: 40%;
+        height: 6vh;
+        margin: 13px 18px 13px 0px;
+        font-size: 0.8rem;
+
+
+    }
+
+    .content button:hover {
+        scale: 1.1;
+
+    }
+
+    .header h1 {
+
+
+        padding: 25px;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+
+    .bjit-attachment-project {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+
+    .Monstarlab-Bangladesh-attachment-project {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 50px;
+
+    }
+
+
+
+    video {
+        width: 300px;
+        height: 150px;
+    }
+
+
+    .bjit-attachment-project-details h2,
+    .Monstarlab-Bangladesh-attachment-project-details h2 {
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+
+    .bjit-attachment-project-details,
+    .Monstarlab-Bangladesh-attachment-project-details {
+        margin: 0 20px 0px 10px;
+    }
+
+
+
+    .bjit-attachment-project-details li,
+    .Monstarlab-Bangladesh-attachment-project-details li,
+    .bachelor-thesis-details li {
+        font-size: 1rem;
+        padding: 3px 0 3px 0;
+    }
+
+    .bachelor-thesis {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 20px 0 20px;
+        border-top: 1px solid rgb(10, 228, 217);
+    }
+
+    .bachelor-thesis-demo {
+
+        width: 450px;
+        height: 450px;
+
+    }
+
+    .bachelor-thesis-demo img {
+
+        width: 100%;
+
+
+    }
+
+    footer {
+        padding: 15px;
+
+    }
+
+    #copyright {
+        display: block;
+        font-size: 1rem;
+
+    }
+
+}
+
+
+
+
+/* ------------------------------------------- */
+
+
+@media screen and (max-width:425px) {
+
+    /* for dropdown in small screen */
+    body {
+        overflow-y: visible;
+    }
+
+
+    .hamburg,
+    .cancel {
+        display: block;
+        color: white;
+
+    }
+
+    .dropdown {
+        z-index: 100;
+        position: absolute;
+        top: 0;
+        transform: translateY(-500px);
+        width: 100%;
+        backdrop-filter: brightness(50%) blur(1px);
+        box-shadow: 0 0 20px rgb(164, 187, 189);
+        transition: 0.8s linear;
+    }
+
+    .dropdown .links a {
+        color: white;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        padding: 10px 0;
+        align-items: center;
+        transition: 0.2s linear;
+    }
+
+    .dropdown .links a:hover {
+        background-color: rgb(10, 228, 217);
+    }
+
+    .nav-container .links {
+        display: none;
+    }
+
+    /* dropdown till here */
+
+
+    .logo {
+
+        font-size: 2rem;
+
+    }
+
+
+    section {
+        width: 100%;
+        min-height: 90vh;
+        /* section will be at least full height but can grow */
+        height: auto;
+        /* let content decide height */
+    }
+
+
+    .main-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .main-container .image {
+        z-index: -1;
+        width: 100%;
+        display: flex;
+        padding: 50px;
+
+
+    }
+
+
+    .main-container .image img {
+
+        width: 100%;
+    }
+
+    .main-container .content {
+        width: 80%;
+        min-height: 100px;
+    }
+
+    .content h1 {
+        font-size: clamp(2rem, 2rem + 5vw, 3rem);
+    }
+
+
+    .content .typewriter {
+        font-weight: 600;
+        font-size: clamp(1.5rem, 1rem + 5vw, 2rem);
+    }
+
+    .content .typewriter span {
+
+        font-size: 1.5rem;
+        position: relative;
+
+    }
+
+
+    .content p {
+        font-size: clamp(0.4rem, 0.2rem + 9vw, 1.1rem);
+        margin: 10px 0;
+    }
+
+
+
+
+    .social-links i {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin: 5px 20px 5px 0px;
+        font-size: 1rem;
+    }
+
+
+    .social-links i:hover {
+        scale: 1.2;
+
+    }
+
+    .content button {
+
+        width: 40%;
+        height: 6vh;
+        margin: 15px 20px 15px 0px;
+        font-size: 80%;
+        margin: 30px 0 30px 0;
+    }
+
+    .content button:hover {
+        scale: 1.1;
+    }
+
+
+    .header h1 {
+
+
+        padding: 30px;
+        font-size: 1.8em;
+    }
+
+    .bjit-attachment-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 40px;
+
+    }
+
+
+    .Monstarlab-Bangladesh-attachment-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 40px;
+
+    }
+
+    .bachelor-thesis {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        border-top: 1px solid rgb(10, 228, 217);
+    }
+
+    video {
+        width: 340px;
+        height: 160px;
+    }
+
+    .bjit-attachment-project-details,
+    .Monstarlab-Bangladesh-attachment-project-details,
+    .bachelor-thesis-details {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bjit-attachment-project-details h2,
+    .Monstarlab-Bangladesh-attachment-project-details h2,
+    .bachelor-thesis-details h2 {
+
+        font-size: 1.2em;
+        margin: 30px 0 30px 0;
+    }
+
+    .bjit-attachment-project-details li,
+    .Monstarlab-Bangladesh-attachment-project-details li,
+    .bachelor-thesis-details li {
+
+        font-size: 1rem;
+        padding: 5px 0 5px 0;
+
+    }
+
+    .bachelor-thesis-demo {
+
+
+        height: 200px;
+        margin-bottom: -55px;
+
+    }
+
+    .bachelor-thesis-demo img {
+        width: 80%;
+    }
+
+
+    footer {
+        padding: 10px;
+
+    }
+
+    #copyright {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+
+
+}
+
+/* ------------------------------------------- */
+
+
+@media screen and (max-width:360px) {
+
+    /* for dropdown in small screen */
+    body {
+        overflow-y: visible;
+    }
+
+
+    .hamburg,
+    .cancel {
+        display: block;
+        color: rgba(255, 255, 255, 0.568);
+
+    }
+
+    .dropdown {
+        z-index: 9999;
+        position: absolute;
+        top: 0;
+        transform: translateY(-500px);
+        width: 100%;
+        backdrop-filter: brightness(50%) blur(1px);
+        box-shadow: 0 0 20px rgb(164, 187, 189);
+        transition: 0.8s linear;
+    }
+
+    .dropdown .links a {
+        color: white;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        padding: 10px 0;
+        align-items: center;
+        transition: 0.2s linear;
+    }
+
+    .dropdown .links a:hover {
+        background-color: rgb(10, 228, 217);
+    }
+
+    .nav-container .links {
+        display: none;
+    }
+
+    /* dropdown till here */
+
+
+    .logo {
+
+        font-size: 1.5rem;
+
+    }
+
+    section {
+        width: 100%;
+        min-height: 90vh;
+        /* section will be at least full height but can grow */
+        height: auto;
+        /* let content decide height */
+    }
+
+    .general-experiences {
+
+        text-align: center;
+        padding: 40px;
+    }
+
+    .general-experiences h2 {
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+
+    .main-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main-container .image {
+        z-index: -1;
+        width: 100%;
+        display: flex;
+        padding: 50px;
+
+
+    }
+
+    .main-container .image img {
+
+        width: 100%;
+    }
+
+    .main-container .content {
+        width: 70%;
+        min-height: 100px;
+    }
+
+    .content h1 {
+        font-size: clamp(1rem, 2rem + 5vw, 1.7rem);
+
+    }
+
+
+    .content .typewriter {
+        font-weight: 600;
+        font-size: clamp(1.2rem, 1rem + 5vw, 1rem);
+    }
+
+    .content .typewriter span {
+
+        font-size: 1rem;
+        position: relative;
+
+    }
+
+
+    .content p {
+        font-size: clamp(0.3rem, 0.2rem + 9vw, 1.1rem);
+        margin: 10px 0;
+    }
+
+
+
+
+    .social-links i {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin: 5px 20px 5px 0px;
+        font-size: 1rem;
+    }
+
+
+    .social-links i:hover {
+        scale: 1.2;
+
+    }
+
+    .content button {
+
+        width: 40%;
+        height: 6vh;
+        font-size: 80%;
+        margin: 15px 0 30px 0;
+    }
+
+    .content button:hover {
+        scale: 1.1;
+    }
+
+
+    .general-experiences {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .general-experiences h2 {
+        color: rgb(10, 228, 217);
+        font-size: 1.5em;
+        font-weight: 200;
+    }
+
+    .header h1 {
+
+
+        padding: 30px;
+        font-size: 1.5em;
+    }
+
+    .bjit-attachment-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 40px;
+
+    }
+
+
+    .Monstarlab-Bangladesh-attachment-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 40px;
+
+    }
+
+    .bachelor-thesis {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        border-top: 1px solid rgb(10, 228, 217);
+    }
+
+    video {
+        width: 320px;
+        height: 140px;
+    }
+
+    .bjit-attachment-project-details,
+    .Monstarlab-Bangladesh-attachment-project-details,
+    .bachelor-thesis-details {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bjit-attachment-project-details h2,
+    .Monstarlab-Bangladesh-attachment-project-details h2,
+    .bachelor-thesis-details h2 {
+
+        font-size: 1.2em;
+        margin: 30px 0 30px 0;
+    }
+
+    .bjit-attachment-project-details li,
+    .Monstarlab-Bangladesh-attachment-project-details li,
+    .bachelor-thesis-details li {
+
+        font-size: 1rem;
+        padding: 5px 0 5px 0;
+
+    }
+
+    .bachelor-thesis-demo {
+
+
+        height: 150px;
+        margin-bottom: -55px;
+
+    }
+
+    .bachelor-thesis-demo img {
+        width: 70%;
+    }
+
+
+    footer {
+        padding: 10px;
+
+    }
+
+    #copyright {
+        display: block;
+        text-align: center;
+        font-size: 0.6rem;
+
+    }
+
+}
