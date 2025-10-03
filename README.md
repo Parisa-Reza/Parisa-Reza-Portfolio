@@ -5,8 +5,7 @@ This repository contains the source code and design of my portfolio website, whe
 ---
 
 ##  Live Demo
- [Visit My Portfolio](https://parisa-reza.github.io/Parisa-Reza-Portfolio/)
-
+ You can visit my portfolio :
  https://parisa-reza.github.io/Parisa-Reza-Portfolio/
 
 ---
