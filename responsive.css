@@ -4,6 +4,9 @@
 700,425,360 (mobile,tab) */
 
 
+body{
+    overflow-x: hidden;
+}
 @media screen and (min-width:3840px) {
 
     .logo {
@@ -790,7 +793,7 @@
 /* ------------------------------------------- */
 
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:430px) {
 
     /* for dropdown in small screen */
     body {
